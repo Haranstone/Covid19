@@ -88,24 +88,24 @@ class _HeaderWidgetState extends State<HeaderWidget> {
 
     switch (link) {
       case NavLinks.Home:
-        url = "https://flutter-to-fly.firebaseapp.com";
+        url = "";
         break;
 
       case NavLinks.Github:
-        url = "https://github.com/ptyagicodecamp";
+        url = "";
         break;
 
       case NavLinks.Videos:
         url =
-            "https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA/videos?view_as=subscriber";
+            "";
         break;
 
       case NavLinks.Jobs:
-        url = "https://flutterjobs.info";
+        url = "";
         break;
 
       default:
-        url = "https://flutter-to-fly.firebaseapp.com";
+        url = "";
     }
     print("url: " + url);
     return url;
