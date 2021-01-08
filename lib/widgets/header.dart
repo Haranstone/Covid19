@@ -84,28 +84,28 @@ class _HeaderWidgetState extends State<HeaderWidget> {
   }
 
   String getTargetUrl(NavLinks link) {
-    String url = "";
+    String url = "https://www.mygov.in/covid-19/";
 
     switch (link) {
       case NavLinks.Home:
-        url = "";
+        url = "techat";
         break;
 
       case NavLinks.Github:
-        url = "";
+        url = "https://www.mygov.in/covid-19/";
         break;
 
       case NavLinks.Videos:
         url =
-            "";
+            "https://www.mygov.in/covid-19/";
         break;
 
       case NavLinks.Jobs:
-        url = "";
+        url = "https://www.mygov.in/covid-19/";
         break;
 
       default:
-        url = "";
+        url = "https://www.mygov.in/covid-19/";
     }
     print("url: " + url);
     return url;
